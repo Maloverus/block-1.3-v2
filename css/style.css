@@ -48,6 +48,7 @@ button {
    font: inherit;
    color: inherit;
    background-color: transparent;
+   cursor: pointer;
 }
 
 /* Header */
@@ -82,13 +83,13 @@ button {
 }
 
 /* Menu */
-.menu {
+.menu-list {
    display: flex;
    padding: 0px 16px 24px;
    overflow: scroll;
 }
 
-.menu__item {
+.menu-list__btn {
    white-space: nowrap;
    padding: 8px 16.54px;
    letter-spacing: -0.2px;
@@ -96,10 +97,15 @@ button {
    color: #7e7e82;
 }
 
-.menu__item:first-child {
+.menu-list__btn:hover {
    border: 2px solid #b8ffec;
    border-radius: 6px;
    background-color: #fff;
+   white-space: nowrap;
+   padding: 8px 16.54px;
+   letter-spacing: -0.2px;
+   font-size: 16px;
+   color: #7e7e82;
 }
 /* Content */
 .content {
@@ -157,7 +163,7 @@ button {
    .nav__menu li:nth-child(9) {
       order: 3;
    }
-   .menu-list__item3 {
+   .nav-list__item3 {
       flex-basis: 47%;
    }
 

@@ -14,4 +14,6 @@ function btnClick() {
    }
 
    moreText.classList.toggle("hidden");
+
 }
+
